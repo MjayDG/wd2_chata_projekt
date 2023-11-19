@@ -1,3 +1,7 @@
+
+
+
+
 .carousel .carousel-item{
     height: 400px;
 }
@@ -23,5 +27,22 @@
     position: absolute;
 }
 
+.paticka{
+    background-color: black;
+    
+}
 
+.cardis {
+    background-color:  black
+
+}
+
+.penize{
+    color:black;
+    background-color: white;
+    display: flex;
+    
+    justify-content: start;
+    align-items: center;
+}
 

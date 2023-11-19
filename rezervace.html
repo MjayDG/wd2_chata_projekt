@@ -35,33 +35,59 @@
           </div>
         </div>
       </nav>
-      
-      <div class="container  m-auto mt-5" style="max-width: 950px;">
+      <div class="nadpos text-center"><h1>Rezervace</h1></div>
+      <div class="container">
+        <div class="col-12 col-md-6 m-auto">
+         
+          <div class="mb-3">
+            <label class="form-label text-black">Vaše jméno</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="------ -------">
+          </div>
 
-      <div class="koms d-sm-flex d-column justify-content-between text-center text-md-start" >
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-black">Vaše telefonní číslo</label>
+            <input type="email" class="form-control" id="exampleInputEmail2"     placeholder="+ 420">
         
-            <div class="kontakty">
-              <h4 class="fs-5">Kontakty</h4>
-              <p><b>Telefon:</b> +420 148 259 197</p>
-              <p><b>E-mail:</b> horalky@snejks.komnata</p>
+          </div>
 
+          <form class="row g-3">
+  <div class="col-auto">
+    <label for="staticEmail2" class="visually-hidden">Email</label>
+    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Váš E-mail">
+  </div>
+  <div class="col-auto">
+    <label  class="visually-hidden">Password</label>
+    <input type="email" class="form-control" id="inputEmail3" placeholder="úsername@gmail.com">
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn bg-black text-white mb-3">Potvrdit</button>
+  </div>
+</form>
+
+          <div class="negroid mb-3  mt-5">    
+            <label class="form-label text-black">Čas ubytování</label>
+            <div class="pole  d-flex my-3">
+            <div class="mb-3">
+
+                <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Od:">
+              </div>
+              <div class="mb-3">
+
+                <input type="email" class="form-control " id="exampleFormControlInput2" placeholder="Do:">
+              </div>
             </div>
-    
-            <div class="Lokace ">
-              <h4 class="fs-5">Lokace</h4>
-              <p>Velká Úpa 165</p>
-              <p>542 21 </p>
-              <p>Pec pod Sněžkou 1</p>
-            </div>
-                   
+
         </div>
-                
-                  <div class="nih"><iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4070.8768034623804!2d15.746833690484225!3d50.69153234559104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470eeb06c509385d%3A0x9f0099525a7b4959!2sChata%20Horalka!5e1!3m2!1scs!2scz!4v1700229441322!5m2!1scs!2scz"
-                    width="900" height="400" style="border:0;" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" ></iframe></div>
 
-      </div>
+          <div class="mb-3">
+            <label for="text" class="form-label text-black">Vaše zpráva</label>
+            <textarea class="form-control" rows="10" id="text"></textarea>
+          </div>
+          <button type="submit" class=" btn bg-black text-white mb-5 px-4 py-1">Odeslat</button>
+          </div>
+        
+        
+        </div>
 
       <div class="container mt-5">
         <div class="paticka text-center text-white py-2">
